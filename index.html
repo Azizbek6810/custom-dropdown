@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Dropdown menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dropdown" id="dropdown-content">
+        <button class="dropdown__button" id="dropdown-button">
+          <img
+            src="./assets/images/user-line.svg"
+            alt="user"
+            class="dropdown__icon"
+          />
+          <span class="dropdown__name">My profile</span>
+
+          <div class="dropdown__icons">
+            <img
+              src="./assets/images/arrow-down-s-line.svg"
+              alt="down-icon"
+              class="dropdown__arrow"
+            />
+            <img
+              src="./assets/images/close-line.svg"
+              alt="close"
+              class="dropdown__close"
+            />
+          </div>
+        </button>
+
+        <ul class="dropdown__menu">
+          <li class="dropdown__item" id="dropdown-item1">
+            <img
+              src="./assets/images/message-3-line.svg"
+              alt="message"
+              class="dropdown__icon"
+            /><span class="dropdown__name">Messages</span>
+          </li>
+          <li class="dropdown__item" id="dropdown-item2">
+            <img
+              src="./assets/images/lock-line.svg"
+              alt="lock"
+              class="dropdown__icon"
+            /><span class="dropdown__name">Accounts</span>
+          </li>
+          <li class="dropdown__item" id="dropdown-item3">
+            <img
+              src="./assets/images/settings-3-line.svg"
+              alt="settings"
+              class="dropdown__icon"
+            /><span class="dropdown__name">Settings</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
